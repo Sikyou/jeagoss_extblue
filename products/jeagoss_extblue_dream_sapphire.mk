@@ -7,7 +7,7 @@ PRODUCT_NAME := jeagoss_extblue_dream_sapphire
 PRODUCT_PACKAGE_OVERLAYS := vendor/jeagoss_extblue/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/jeagoss_extblue/overlay/dream_sapphire
 
-PRODUCT_COPY_FILES +=  \
+PRODUCT_COPY_FILES += \
     vendor/jeagoss_extblue/proprietary/ThemeDefaults.apk:system/app/ThemeDefaults.apk \
     vendor/jeagoss_extblue/prebuilt/common/bin/setdefcols.sh:system/bin/setdefcols.sh
 
